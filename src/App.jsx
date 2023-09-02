@@ -18,7 +18,7 @@ function App() {
   );
 
   const handleSort = () => {
-    if (!search) return;
+    if (error) return;
     setSort(!sort);
   };
   const handleSubmit = (event) => {
