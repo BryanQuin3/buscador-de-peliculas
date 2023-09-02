@@ -28,6 +28,7 @@ function App() {
 
   const handleChange = (event) => {
     const newSearch = event.target.value;
+    if (newSearch === "") setSort(false);
     updateSearch(newSearch);
     debouncedGetMovies(newSearch);
   };
