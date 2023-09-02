@@ -18,7 +18,7 @@ function App() {
   );
 
   const handleSort = () => {
-    if (error) return;
+    if (!movies) return;
     setSort(!sort);
   };
   const handleSubmit = (event) => {
