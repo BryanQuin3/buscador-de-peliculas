@@ -12,7 +12,6 @@ function ListOfMovies({ movies }) {
                 animation="wave"
                 width={167}
                 height={250}
-                style={{ backgroundColor: "#404040" }}
               />
             ) : (
               <img className="poster" src={movie.poster} alt={movie.title} />
