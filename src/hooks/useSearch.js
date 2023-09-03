@@ -12,7 +12,7 @@ export function useSearch() {
       setError("Debes ingresar una búsqueda");
       return;
     }
-    if (search.length <= 3) {
+    if (search.length <= 2) {
       setError("La búsqueda debe tener al menos 3 caracteres");
       return;
     }
